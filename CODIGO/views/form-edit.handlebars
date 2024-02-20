@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDITAR POSTAGEM</title>
+<style>
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+form p {
+    color: #ff6f61;
+    margin: 10px 0;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+button[type="submit"] {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e04e42;
+}
+</style>
+</head>
+<body>
+<form action="/editado/{{id}}" method="post">
+  <p>TITULO:</p>
+  <input type="text" name="titulo" placeholder="{{titulo}}">
+  <p>CONTEÚDO:</p>
+  <textarea name="conteudo" rows="8" cols="40" placeholder="{{conteudo}}"></textarea>
+  <button type="submit">EDITAR</button>
+</form>
+</body>
+</html>
