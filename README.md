@@ -7,7 +7,7 @@
 <img src="./IMAGENS/FOTO_04.png" align="center" width="500"> <br> 
 
 ## DESCRIÇÃO:
-Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRUD)](./CRUD.md) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
+Este aplicativo é uma plataforma para criar, visualizar, editar e excluir (CRUD) postagens. Aqui está uma descrição mais detalhada das funcionalidades:
 
 1. **Criação de Novas Postagens**: Os usuários podem criar novas postagens preenchendo um formulário com um título e conteúdo e enviando-o. Isso é feito através do formulário "Nova Postagem!" na página principal.
 
@@ -19,29 +19,8 @@ Este aplicativo é uma plataforma para criar, visualizar, editar e excluir [(CRU
 
 5. **Layout Responsivo e Estilizado**: Estilo escuro e bonito foi adicionado ao código HTML, utilizando uma paleta de cores predominantemente escura, com elementos em destaque em tons de vermelho (#ff6f61). As formas dos elementos foram suavizadas com bordas arredondadas, e os botões apresentam uma aparência de destaque quando são hoverados. O formulário e a tabela foram estilizados para ter uma aparência limpa e moderna, com contraste adequado para facilitar a leitura.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-* Clone o repositório para o seu sistema local:
-
-```bash
-git clone https://github.com/VILHALVA/CRUD-DE-POSTAGENS-COM-NODEJS-E-JSON.git
-```
-
-* Navegue até o diretório do projeto.
-
-```bash
-cd CRUD-DE-POSTAGENS-COM-NODEJS-E-JSON
-```
-
-* Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-JSON.zip
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Instalando as Depêndencias:**
-
    - Para instalar as dependências listadas no arquivo "package.json", você pode usar o comando `npm install` ou simplesmente `npm i` no terminal. Certifique-se de estar no diretório do seu projeto onde o arquivo "package.json" está localizado. O npm irá ler o arquivo "package.json" e instalar todas as dependências listadas nele. 
 
    - Aqui está o comando:
@@ -62,7 +41,6 @@ unzip CRUD-DE-POSTAGENS-COM-NODEJS-E-JSON.zip
    ```
 
 2. **Executando o Aplicativo:**
-
    - Para subir o servidor, no diretório do seu [projeto](./CODIGO/APP.js), digite o seguinte comando no Terminal/CMD:
    ```bash
    node APP.js
